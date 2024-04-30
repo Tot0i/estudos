@@ -1,0 +1,54 @@
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    appearance: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input [type="email"]{
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+input {
+    text-align: start;
+    text-rendering: auto;
+    word-spacing: normal;
+    letter-spacing: normal;
+    text-shadow: none;
+    text-transform: none;
+    text-indent: 0px;
+    cursor: text;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: rgb(118, 118, 118), rgb(133, 133, 133);
+    border-image: initial;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+form-text {
+    padding: 20px;
+}
+
+button {
+    margin: 15px;
+    padding: 10px;
+    border-radius: 0.375rem;
+    background-color: #000;
+    color: white;
+}
